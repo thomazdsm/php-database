@@ -1,0 +1,21 @@
+{
+  "name": "tsm/php-database",
+  "description": "A simple library for managing database connections, results pagination and building queries in PHP. <Based on William Costa Library>",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomaz da Silva Machado",
+      "email": "thomazdsmachado@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TSM\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-pdo": "*"
+  }
+}
